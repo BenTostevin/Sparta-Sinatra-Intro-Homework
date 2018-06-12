@@ -1,6 +1,8 @@
 require "sinatra"
 require "sinatra/contrib"
 require "sinatra/reloader" if development?
-require_relative "./controllers/lions_controller.rb"
+require_relative "./Controllers/home_controller.rb"
+require_relative "./Controllers/lions_controller.rb"
+require_relative "./Controllers/pantehrs_controller.rb"
 
-run LionsController
+run HomeController
