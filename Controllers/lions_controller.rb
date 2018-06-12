@@ -6,7 +6,7 @@ class LionsController < Sinatra::Base
 
   # Index
   get "/lions" do
-    "<h1>Index</h1>"
+    "<h1>Lions Index</h1>"
   end
 
   # New
